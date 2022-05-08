@@ -1,0 +1,29 @@
+---
+title: "Effect of Vaccine Rollout on CoViD deaths"
+author: "Group 37"
+output: html_notebook
+---
+
+# Executive summary
+
+# Introduction
+
+# Data
+
+```{r}
+covidDF <- read.table("Math163_Projectdata_GroupN.csv", header=TRUE, sep=",")
+```
+
+# Hypotheses
+
+## Hypothesis 1
+
+## Hypothese 2
+
+# Hypothesis testing and limitations
+
+# Conclusions and recommendations
+
+# References
+
+# Appendices
