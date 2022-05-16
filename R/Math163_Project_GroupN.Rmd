@@ -11,13 +11,16 @@ output: html_notebook
 # Data
 
 ```{r}
-covidDF <- read.table("Math163_Projectdata_GroupN.csv", header=TRUE, sep=",")
+library(ggplot2)
+covidDF <- read.table("data.csv", sep=",")
+xValue <- 1:nrow(covidDF)
+ggplot(data.frame(xValue, covidDF[,2]), aes(x=xValue, y=covidDF[,2])) + geom_line() +xlab("days") + ylab("Modelled % of Population with CoViD-19")
 ```
 
 # Hypotheses
 
 ## Hypothesis 1
-
+The introduction of the vaccine decreased the number of people testing positive.
 ## Hypothese 2
 
 # Hypothesis testing and limitations
